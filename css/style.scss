@@ -13,6 +13,9 @@ $starColor: #fbbf25;
 }
 
 /* All common css start  */
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0;
@@ -240,8 +243,9 @@ header {
 
       img {
         width: 100%;
-        height: auto;
+        height: 400px;
         border-radius: 10px;
+        background: #e8e8eb;
       }
       .content-text {
         position: absolute;
@@ -286,6 +290,8 @@ header {
 
       .img1 {
         margin-bottom: 24px;
+        width: 100px;
+        height: auto;
       }
       .star-rating i {
         color: $starColor;
@@ -326,7 +332,7 @@ header {
 
 /* Newws Part Start  */
 #latestNews {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
   .newsContent {
     @include flexCenter;
     justify-content: space-between;
@@ -458,9 +464,9 @@ footer {
       }
       .social_media {
         margin-top: 20px;
-                    display: flex;
-            align-items: center;
-            gap: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
 
         img {
           padding: 2px;
@@ -478,6 +484,5 @@ footer {
     }
   }
 }
-
 
 /* Footer Part End  */

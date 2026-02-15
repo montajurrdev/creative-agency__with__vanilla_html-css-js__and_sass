@@ -217,8 +217,9 @@ header .ContactButton a:hover {
 }
 #teamMember .member .content img {
   width: 100%;
-  height: auto;
+  height: 400px;
   border-radius: 10px;
+  background: #e8e8eb;
 }
 #teamMember .member .content .content-text {
   position: absolute;
@@ -259,6 +260,8 @@ header .ContactButton a:hover {
 }
 #experienceRating .ratingContent .content .img1 {
   margin-bottom: 24px;
+  width: 100px;
+  height: auto;
 }
 #experienceRating .ratingContent .content .star-rating i {
   color: #fbbf25;
